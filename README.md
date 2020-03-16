@@ -2,6 +2,10 @@ Code related to 'Decomposing the drivers of polar amplification using a single c
 
 Use plot_figures.ipynb python notebook to make Main figures, SI figures and table data.
 
+
+https://zenodo.org/badge/DOI/10.5281/zenodo.3711972.svg
+
+
 MIT License
 
 Copyright (c) [2020] [Matthew Henry]
