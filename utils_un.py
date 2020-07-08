@@ -19,6 +19,8 @@ class ncdf_obj:
         self.test = dirname + test + '/day_ave.nc'
         self.f_lin = netCDF4.Dataset(dirname + ctl + '/day_ave.nc')
         self.f_lin_14xCO2 = netCDF4.Dataset(dirname + test + '/day_ave.nc')
+        self.f_lin.set_always_mask(False)
+        self.f_lin_14xCO2.set_always_mask(False)
         
         self.sig_= self.f_lin.variables['sigma'][:]
         self.lat_= self.f_lin.variables['lat'][:]
